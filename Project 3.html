@@ -130,7 +130,7 @@
     line-height:1.1;
   }
   .stat-card .stat-label{
-    font-size:12.5px;
+    font-size:15px;
     color:var(--muted);
     margin-top:8px;
     line-height:1.5;
@@ -156,14 +156,14 @@
     align-items:flex-start;
   }
   .method-num{
-    font-size:14px;
+    font-size:15px;
     font-weight:700;
     color:var(--sage-light);
     flex-shrink:0;
     width:22px;
   }
-  .method-item .m-title{font-size:14px;font-weight:600;margin:0 0 4px 0;}
-  .method-item .m-desc{font-size:13px;color:var(--muted);margin:0;line-height:1.5;}
+  .method-item .m-title{font-size:16px;font-weight:600;margin:0 0 4px 0;}
+  .method-item .m-desc{font-size:15px;color:var(--muted);margin:0;line-height:1.5;}
   .story-cta{
     text-align:center;
     max-width:760px;
@@ -178,14 +178,14 @@
     padding:0 12px;
   }
   .outcome-section h2{font-size:22px;margin:0 0 16px 0;font-weight:700;}
-  .outcome-section p{font-size:15px;line-height:1.75;color:#d6d6d2;margin:0 0 16px 0;}
+  .outcome-section p{font-size:16px;line-height:1.75;color:#d6d6d2;margin:0 0 16px 0;}
   .policy-list{
     list-style:none;
     padding:0;margin:20px 0 0 0;
     display:flex;flex-direction:column;gap:10px;
   }
   .policy-list li{
-    font-size:14px;color:#d6d6d2;line-height:1.6;
+    font-size:15px;color:#d6d6d2;line-height:1.6;
     padding-left:18px;position:relative;
   }
   .policy-list li::before{
@@ -200,7 +200,7 @@
     background:#141414;
     border:1px solid var(--border);
     border-radius:6px;
-    font-size:12.5px;
+    font-size:15px;
     color:var(--muted);
     line-height:1.6;
   }
@@ -332,7 +332,7 @@
   table.per-table{
     width:100%;
     border-collapse:collapse;
-    font-size:11.5px;
+    font-size:14px;
   }
   table.per-table th,table.per-table td{
     border:1px solid var(--border);
@@ -420,19 +420,19 @@
   <h2>Tools and methods</h2>
   <div class="stat-row" style="margin-bottom:0;">
     <div class="stat-card">
-      <div class="stat-label" style="margin-top:0;font-size:12.5px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Data analysis</div>
+      <div class="stat-label" style="margin-top:0;font-size:15px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Data analysis</div>
       <div class="stat-label">Python (Pandas, NumPy, Statsmodels), Google Colab</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label" style="margin-top:0;font-size:12.5px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Econometric modelling</div>
+      <div class="stat-label" style="margin-top:0;font-size:15px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Econometric modelling</div>
       <div class="stat-label">ADF test, Johansen cointegration, VECM, Granger causality, impulse response analysis, lagged correlation (VAR used for lag-order selection)</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label" style="margin-top:0;font-size:12.5px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Visualisation</div>
+      <div class="stat-label" style="margin-top:0;font-size:15px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Visualisation</div>
       <div class="stat-label">Power BI, Matplotlib, interactive HTML dashboard</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label" style="margin-top:0;font-size:12.5px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Data management</div>
+      <div class="stat-label" style="margin-top:0;font-size:15px;color:var(--sage-light);font-weight:600;margin-bottom:8px;">Data management</div>
       <div class="stat-label">Excel (data preparation, log transformations), CSV</div>
     </div>
   </div>
@@ -462,9 +462,9 @@
 
 <div class="method-section">
   <h2>What the analysis showed</h2>
-  <p style="font-size:14px;color:var(--muted);line-height:1.7;margin:0 0 20px 0;">This table summarises what each method showed on this dataset and what it demonstrates about the approach.</p>
+  <p style="font-size:15px;color:var(--muted);line-height:1.7;margin:0 0 20px 0;">This table summarises what each method showed on this dataset and what it demonstrates about the approach.</p>
   <div style="overflow-x:auto;">
-    <table class="per-table" style="text-align:left;font-size:12.5px;">
+    <table class="per-table" style="text-align:left;font-size:14px;">
       <tr>
         <th style="text-align:left;">Method</th>
         <th style="text-align:left;">What it tested</th>
@@ -634,7 +634,7 @@
 <div class="outcome-section">
   <h2>The lead-lag pattern</h2>
   <p>In this dataset, fuel prices tended to move first and food prices followed gradually: correlations strengthen out to 12 months, and the model’s response is still building after 24 months. This is the kind of lead-lag pattern these methods are designed to surface. Confirming it would need the extensions listed below.</p>
-  <p style="font-size:15px;font-weight:700;color:#111111;margin:22px 0 10px 0;">Possible extensions</p>
+  <p style="font-size:16px;font-weight:700;color:#111111;margin:22px 0 10px 0;">Possible extensions</p>
   <ul class="policy-list">
     <li>Test the 2020 to 2022 period for a structural break</li>
     <li>Run Granger tests at longer lags and in the reverse direction</li>
@@ -643,8 +643,8 @@
     <li>Model petrol and diesel separately to test whether they have different effects</li>
   </ul>
   <div class="limitations-note">
-    <p style="font-size:15px;font-weight:700;color:var(--text);margin:0 0 12px 0;">Limitations</p>
-    <p style="margin:0 0 12px 0;font-size:13px;color:#ffffff;line-height:1.7;">This analysis uses UK monthly data (2015 to 2025) to examine how food prices respond to fuel price shocks during a period of heightened geopolitical uncertainty. This is a portfolio project, so results show association and timing in this sample, not proven causation. Key limitations include:</p>
+    <p style="font-size:16px;font-weight:700;color:var(--text);margin:0 0 12px 0;">Limitations</p>
+    <p style="margin:0 0 12px 0;font-size:15px;color:#ffffff;line-height:1.7;">This analysis uses UK monthly data (2015 to 2025) to examine how food prices respond to fuel price shocks during a period of heightened geopolitical uncertainty. This is a portfolio project, so results show association and timing in this sample, not proven causation. Key limitations include:</p>
     <ul class="policy-list" style="margin-top:14px;">
       <li><b style="color:var(--text);">Geopolitical shocks:</b> global events affecting fuel markets can create sudden price movements that are difficult to fully capture using historical UK data.</li>
       <li><b style="color:var(--text);">Other drivers of food prices:</b> food prices are also influenced by labour costs, exchange rates, income, import prices, weather and supply chain pressures. Only some of these were included in the models.</li>
